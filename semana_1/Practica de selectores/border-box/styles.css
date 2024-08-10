@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 0;
+    width: 75%;
+    background-color: #ffe4c4;   
+    box-sizing: border-box;
+
+
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.caja{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.caja:hover{
+    background-color: #ffffff;
+    color: #000000;
+
+}
