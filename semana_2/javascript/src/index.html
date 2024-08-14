@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Javascript</title>
+  </head>
+  <body>
+    <header>
+      <h1>Conversión de Temperaturas entre Celsius, Kelvin y Fahrenheit</h1>
+    </header>
+
+    <main>
+      <section id="form-section">
+        <form id="form">
+          <fieldset>
+            <legend>Temperatura</legend>
+            <label name="temperatura">Ingrese la temperatura:</label>
+            <input
+              required
+              type="number"
+              min="1"
+              id="Temperatura"
+              name="temperatura"
+            />
+          </fieldset>
+
+          <fieldset class="select-fieldset">
+            <legend>Seleccione la escala temperatura:</legend>
+            <div>
+              <label name="from">From:</label>
+              <select id="From" name="escala" required>
+                <option value="CELSIUS">Celsius</option>
+                <option value="KELVIN">Kelvin</option>
+                <option value="FAHRENHEIT">Fahrenheit</option>
+              </select>
+            </div>
+            <div>
+              <label name="to">To:</label>
+              <select id="To" name="escala" required>
+                <option value="KELVIN">Kelvin</option>
+                <option value="FAHRENHEIT">Fahrenheit</option>
+                <option value="CELSIUS">Celsius</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <button type="submit" id="btnEnviar">Enviar</button>
+        </form>
+      </section>
+
+      <section id="resultado"></section>
+    </main>
+
+    <footer></footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
