@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
@@ -5,38 +7,98 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0 auto;
+    background-color: rgba(75, 85, 99, 1);
 }
 
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', 'Courier New', Courier, monospace; 
 }
 
-
-#form-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;    
-}
-
-.select-fieldset{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    gap: 20px
-}
 
 main{
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: black;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgba(107, 114, 128, 1); 
+    box-shadow: 3px 3px 5px #ffffff;
+}
+
+form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+.select{
+    display: flex;
+    gap: 10px;
+}
+
+input , option{
+    text-align: center;
+    border: 2px solid black;
+}
+
+#title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #ffffff
+}
+
+label{
+   color: rgb(255, 255, 255);
+}
+
+.typed-cursor {
+    font-size: 2rem;
+    color: rgba(243, 244, 246,1);
+}
+
+button {
+    color: #ffffff; /* text-blue-700 */
+    border: 1px solid #000000; /* border-blue-700 */
+    background-color: transparent;
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 10px;
+    text-align: center; 
+}
+  
+button:hover {
+    color: #ffffff; 
+    background-color: rgba(96, 165, 250, 1); 
+}
+
+#resultado{
+    color: #ffffff
+}
+    
+   
+#btnClean:hover{
+    color: #ffffff; 
+    background-color: rgba(220, 38, 38,1); 
+}
+
+footer{
+    color: #ffffff
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    width: 100px;
+    height: auto;
 }
 
 
-button{
-    margin: 10px 0;
-}
 
