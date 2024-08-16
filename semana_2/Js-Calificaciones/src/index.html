@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Calificaciones</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Tabla de Calificaciones</h1>
+      </header>
+
+      <main>
+        <section id="table">
+          <table>
+            <tr>
+              <th>Nombre</th>
+              <th>Calificaciones</th>
+              <th>Materia</th>
+              <th>Editar</th>
+            </tr>
+            <tbody>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>70</td>
+                <td>Desarrollo FullStack</td>
+                <td><button>Editar</button></td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>80</td>
+                <td>Desarrollo FullStack</td>
+                <td><button>Editar</button></td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>95</td>
+                <td>Desarrollo FullStack</td>
+                <td><button>Editar</button></td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>70</td>
+                <td>Desarrollo FullStack</td>
+                <td><button>Editar</button></td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>89</td>
+                <td>Desarrollo FullStack</td>
+                <td><button>Editar</button></td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>100</td>
+                <td>Desarrollo FullStack</td>
+                <td><button>Editar</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <form>
+          <h2>Agregar Estudiante</h2>
+          <div>
+            <label for="Name">Nombre : </label>
+            <input type="text" name="Name" id="Name" required />
+          </div>
+
+          <div>
+            <label for="Calificacion">Calificaciones : </label>
+            <input type="text" name="Calificacion" id="Calificacion" required />
+          </div>
+
+          <div>
+            <label for="Select">Posición : </label>
+            <select name="Select" id="Select" required>
+              <option value="INICIO">Inicio</option>
+              <option value="FINAL">Final</option>
+            </select>
+          </div>
+
+          <div><button type="submit">Enviar</button></div>
+        </form>
+
+        <div id="promedio">
+          <section>
+            <div class="card">
+              <h3>Encima del promedio</h3>
+              <h3>98%</h3>
+            </div>
+          </section>
+
+          <section>
+            <div class="card">
+              <h3>Calificacion Promedio</h3>
+              <h3>98%</h3>
+            </div>
+          </section>
+
+          <section>
+            <div class="card">
+              <h3>Debajo del promedio</h3>
+              <h3>98%</h3>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <p>Info</p>
+        <p>Github</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
