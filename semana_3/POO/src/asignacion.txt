@@ -1,0 +1,24 @@
+/*
+Asignación: Clase Persona con lista de Intereses
+
+Objetivo: Crear y utilizar la clase Persona para manejar y 
+mostrar información sobre intereses personales y otros detalles, 
+creando una propiedad array e ir agregando los intereses.
+
+Descripción de la Tarea:
+
+1. Definir la Clase Persona:
+   - Propiedades: nombre, edad, intereses 
+        (un array de strings que contiene los 
+        intereses de la persona).
+   - Métodos:
+     - Constructor: Inicializa el nombre, la edad (opcional), y puede iniciar con algunos intereses.
+     - añadirInteres(interes): Añade un nuevo interés al array de intereses.
+     - eliminarInteres(interes): Elimina un interés del array de intereses si existe.
+     - mostrarIntereses(): Imprime todos los intereses de la persona, formatados adecuadamente.
+     - mostrarInformacion(): Imprime toda la información de la persona, incluyendo edad e intereses.
+
+2. Crear Objetos de la Clase Persona:
+   - Instanciar varios objetos Persona, agregando y eliminando intereses para demostrar la funcionalidad completa de la clase.
+
+*/
