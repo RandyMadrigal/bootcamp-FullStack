@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+

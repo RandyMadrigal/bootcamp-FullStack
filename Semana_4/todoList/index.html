@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>To-Do List App</title>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center align-center mx-auto w-9/12">
+      <header class="text-center text-6xl my-5">
+        <h1>To-Do List</h1>
+      </header>
+
+      <main class="text-center">
+        <input
+          class="border border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 w-96 p-2.5"
+          type="text"
+          id="newTaskInput"
+          placeholder="Añade una nueva tarea aquí..."
+        />
+        <button
+          class="text-white bg-blue-700 hover:bg-blue-800 rounded-lg px-5 py-2.5 me-2 mb-2"
+          id="addTaskButton"
+        >
+          Añadir Tarea
+        </button>
+
+        <div class="p-6 bg-gray-800 border-gray-700 rounded-lg shadow">
+          <ul
+            id="taskList"
+            class="grid grid-cols-3 gap-5 uppercase truncate"
+          ></ul>
+        </div>
+      </main>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
