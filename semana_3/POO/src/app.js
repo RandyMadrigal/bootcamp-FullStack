@@ -6,8 +6,6 @@ class Persona {
   }
 
   AñadirInteres(...str) {
-    console.log(...str);
-
     this.intereses.push(...str);
   }
 
@@ -15,7 +13,6 @@ class Persona {
     const index = this.intereses.findIndex(
       (i) => i.toUpperCase() === str.toUpperCase()
     );
-    console.log(index);
     if (index < 0) {
       console.log("no data");
       return;
@@ -50,7 +47,7 @@ const randy = new Persona(
   "Basketball"
 );
 
-randy.AñadirInteres("Android");
+randy.AñadirInteres("Android", "Typescript", "Cars");
 randy.EliminarInteres("basketball");
 randy.MostrarIntereses();
 randy.MostrarInformacion();

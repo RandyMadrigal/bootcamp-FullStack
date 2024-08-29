@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Poppins:wght@400;500&family=Radio+Canada+Big:ital,wght@0,574;1,574&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins","Arial", "sans-serif";
 }
 
 ul {
@@ -9,12 +11,31 @@ ul {
 
 li {
     margin: 8px 0;
-    background-color: #f4f4f4;
     padding: 10px;
     cursor: pointer;
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    align-content: center;
+    border: 1px solid #000000
+    
 }
 
-.completed {
-    text-decoration: line-through;
+li:hover{
+    background-color: rgba(29, 78, 216,1);
+    color: #ffffff;
+
 }
+
+.completed{
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+
+
+.completed::after {
+    content: "✔️";
+    position: absolute;
+}
+
 
