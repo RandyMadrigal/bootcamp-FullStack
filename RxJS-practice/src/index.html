@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Comentario en Tiempo Real con RxJS</title>
+  </head>
+  <body>
+    <h1>Formulario de Comentarios</h1>
+
+    <div class="container">
+      <div>
+        <textarea
+          id="commentInput"
+          placeholder="Escribe tu comentario..."
+          rows="5"
+          cols="30"
+        ></textarea>
+      </div>
+      <div>
+        <h3>Vista Previa</h3>
+        <div id="preview"></div>
+      </div>
+    </div>
+
+    <!-- Muestra errores -->
+    <div id="error"></div>
+
+    <!-- Importa RxJS -->
+    <script src="https://unpkg.com/rxjs@7/dist/bundles/rxjs.umd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
