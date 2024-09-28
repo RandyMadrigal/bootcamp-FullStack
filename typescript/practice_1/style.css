@@ -49,6 +49,7 @@ input{
 span{
     font-weight: bold;
     font-size: larger;
+    margin: 0 10px; 
 }
 
 button{
@@ -67,7 +68,3 @@ button:hover{
 #resultado{
     font-size: 20px;
 }
-
-
-
-
