@@ -34,9 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const cleanInput = () : void => {
-        const clean = document.querySelectorAll("input") 
-        console.log(clean)
+        const clean = document.querySelectorAll("input")
+       console.log(clean)
         clean.forEach( el => {
+            
             el.value = "";
         })
     }
