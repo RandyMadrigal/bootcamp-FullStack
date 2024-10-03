@@ -2,7 +2,7 @@ export interface IDragonBallResponse {
   items: IDragonBall[];
 }
 
-interface IDragonBall {
+export interface IDragonBall {
   id: number;
   name: string;
   race: string;

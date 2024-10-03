@@ -3,3 +3,17 @@
 *{
     font-family: 'Poppins','Courier New', Courier, monospace;
 }
+
+
+.animation-card{
+    transform: translateX(100px);
+    opacity: 0;
+   transition: 500ms;
+}
+
+.animation-card.show{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
